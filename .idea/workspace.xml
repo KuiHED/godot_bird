@@ -4,342 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59addd57-b55d-40f2-ba16-76797c75fc44" name="Changes" comment="整理新建项目">
-      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/Enine-Bass-Rebels.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/Enine-Bass-Rebels.mp3.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/Freedom-Trail-Studio.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/Freedom-Trail-Studio.mp3.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/attack.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/attack.wav.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/die.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/die.wav.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/hit.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/hit.wav.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/hp.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/hp.wav.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/point.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/point.wav.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/speedup.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/speedup.wav.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/speedup_end.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/speedup_end.wav.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/swoosh.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/swoosh.wav.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/wing.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/audio/wing.wav.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/205-207-flappy-bird-需求拆分-设计文档-场景拆分.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/image/205/205-0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/doc/image/205/205-0.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/icon.svg.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/Bush.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/Bush.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/Foreground.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/Foreground.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/background.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/background.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/bg_day.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/bg_day.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/bg_night.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/bg_night.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/bird0_0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/bird0_0.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/bird0_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/bird0_1.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/bird0_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/bird0_2.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/bird1_0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/bird1_0.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/bird1_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/bird1_1.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/bird1_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/bird1_2.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/bird2_0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/bird2_0.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/bird2_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/bird2_1.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/bird2_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/bird2_2.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/button_menu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/button_menu.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/button_ok.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/button_ok.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/button_pause.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/button_pause.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/button_play.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/button_play.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/button_resume.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/button_resume.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/button_score.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/button_score.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/button_share.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/button_share.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/currency/icon_offline_gem.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/currency/icon_offline_gem.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/currency/icon_offline_gold.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/currency/icon_offline_gold.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/currency/result_star.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/currency/result_star.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/effect/attack.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/effect/attack.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/effect/hit/0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/effect/hit/0.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/effect/hit/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/effect/hit/1.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/effect/hit/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/effect/hit/2.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/effect/hit/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/effect/hit/3.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/effect/hit/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/effect/hit/4.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/effect/speedup/0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/effect/speedup/0.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/effect/speedup/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/effect/speedup/1.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/effect/speedup/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/effect/speedup/2.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/enemy/bilibili.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/enemy/bilibili.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/enemy/cloud/0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/enemy/cloud/0.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/enemy/cloud/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/enemy/cloud/1.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/enemy/cloud/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/enemy/cloud/2.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/enemy/cloud/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/enemy/cloud/3.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/enemy/fish/0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/enemy/fish/0.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/enemy/fish/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/enemy/fish/1.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/enemy/fish/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/enemy/fish/2.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/enemy/fish/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/enemy/fish/3.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/enemy/fish/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/enemy/fish/4.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/enemy/fish/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/enemy/fish/5.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/enemy/shark/0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/enemy/shark/0.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/enemy/shark/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/enemy/shark/1.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/enemy/shark/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/enemy/shark/2.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/enemy/shark/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/enemy/shark/3.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/enemy/shark/4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/enemy/shark/4.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/enemy/shark/5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/enemy/shark/5.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/enemy/shark/6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/enemy/shark/6.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/enemy/shark/7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/enemy/shark/7.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/hp/0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/hp/0.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/hp/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/hp/1.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/hp/2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/hp/2.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/hp/3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/hp/3.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/land.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/land.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/medals_0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/medals_0.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/medals_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/medals_1.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/medals_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/medals_2.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/medals_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/medals_3.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/pipe2_down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/pipe2_down.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/pipe2_up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/pipe2_up.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/pipe_down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/pipe_down.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/pipe_up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/pipe_up.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/score_panel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/score_panel.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/text_game_over.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/text_game_over.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/text_ready.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/text_ready.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/tile/Modern_Office-48-48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/tile/Modern_Office-48-48.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/tile/Modern_Office_Decoration-48-48.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/tile/Modern_Office_Decoration-48-48.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/titile7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/titile7.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/title.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/title.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/tutorial.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/tutorial.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/LOADING_ICON_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/LOADING_ICON_01.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/LOADING_MOON_BG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/LOADING_MOON_BG.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_CLAUSE_BTN.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_CLAUSE_BTN.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Loading_Tip_Popup.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Loading_Tip_Popup.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Adventure_Friend_BuyBG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Adventure_Friend_BuyBG.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Adventure_ProfileEdge_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Adventure_ProfileEdge_01.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Adventure_ProfileEdge_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Adventure_ProfileEdge_02.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Adventure_ShopBox.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Adventure_ShopBox.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Adventure_ready_BTN.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Adventure_ready_BTN.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Adventure_ready_BTN_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Adventure_ready_BTN_2.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_ArrowOff.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_ArrowOff.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_ArrowOn.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_ArrowOn.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_ArrowSmall.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_ArrowSmall.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_BuyResourcePopup_Band.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_BuyResourcePopup_Band.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_BuyResourcePopup_Band_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_BuyResourcePopup_Band_02.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Common_BG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Common_BG.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Common_BG_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Common_BG_02.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Event_BG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Event_BG.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_IconBand.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_IconBand.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_InvenPopup_BG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_InvenPopup_BG.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Inven_Item.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Inven_Item.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Inven_ItemBand.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Inven_ItemBand.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Inven_ItemPetBand.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Inven_ItemPetBand.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Inven_Item_Pet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Inven_Item_Pet.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Inven_Item_PetGrade_A.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Inven_Item_PetGrade_A.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Inven_Item_PetGrade_B.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Inven_Item_PetGrade_B.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Inven_Item_PetGrade_C.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Inven_Item_PetGrade_C.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Inven_Item_Pet_Select.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Inven_Item_Pet_Select.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Inven_Pet_Title_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Inven_Pet_Title_01.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_InvitePopup_BG5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_InvitePopup_BG5.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_ItemInfo_BG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_ItemInfo_BG.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_ItemInfo_BG2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_ItemInfo_BG2.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Levelup_Band.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Levelup_Band.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Lucky_BG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Lucky_BG.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Lucky_GaugeShape.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Lucky_GaugeShape.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Lucky_GaugeShapeBG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Lucky_GaugeShapeBG.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_MessageBox.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_MessageBox.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_NEW.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_NEW.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_OFF.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_OFF.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_ON.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_ON.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Pause_BG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Pause_BG.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Preview_BG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Preview_BG.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_QuestionMark.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_QuestionMark.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_RankUp_UserBG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_RankUp_UserBG.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Ranking_Mybar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Ranking_Mybar.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Ranking_UserBG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Ranking_UserBG.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Ready_BG2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Ready_BG2.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Ready_TimeBG.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Ready_TimeBG.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Result_Arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Result_Arrow.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Result_BG4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Result_BG4.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Shop_Buff.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Shop_Buff.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Shop_ItemOFF.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Shop_ItemOFF.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Shop_ItemON.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_Shop_ItemON.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_ranking_ready_BTN.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Main_ranking_ready_BTN.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_NULL_Notice.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_NULL_Notice.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Popup_BTN1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Popup_BTN1.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Popup_BTN10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Popup_BTN10.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Popup_BTN2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Popup_BTN2.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Popup_BTN4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Popup_BTN4.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Popup_BTN5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Popup_BTN5.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Popup_BTN5_Tab.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Popup_BTN5_Tab.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Popup_BTN6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Popup_BTN6.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Popup_BTN7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Popup_BTN7.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Popup_BTN7_Tab.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Popup_BTN7_Tab.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Popup_BTN8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Popup_BTN8.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Popup_BTN9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Popup_BTN9.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Popup_ItemBTN1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Popup_ItemBTN1.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Popup_ItemBTN1_Select.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Popup_ItemBTN1_Select.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Popup_Tab_A_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Popup_Tab_A_01.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Popup_Tab_A_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Popup_Tab_A_02.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Popup_Tab_A_03.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Popup_Tab_A_03.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Popup_Tab_B_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Popup_Tab_B_01.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Popup_Tab_B_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Popup_Tab_B_02.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Popup_Tab_C_01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Popup_Tab_C_01.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Popup_Tab_C_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Popup_Tab_C_02.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Tutorial_PCDialog.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Tutorial_PCDialog.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Tutorial_SkipBTN.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/UI_Tutorial_SkipBTN.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/loadingMessageBox.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/ui/loadingMessageBox.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/water/water.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/water/water.png.import" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/project.godot" afterDir="false" />
+    <list default="true" id="59addd57-b55d-40f2-ba16-76797c75fc44" name="Changes" comment="图片和声音">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.godot" beforeDir="false" afterPath="$PROJECT_DIR$/project.godot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scene/bird.gd" beforeDir="false" afterPath="$PROJECT_DIR$/scene/bird.gd" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -347,13 +15,19 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -370,18 +44,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/github/godot_bird"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/github/godot_bird&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.CommitDialog&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\github\godot_bird\doc" />
       <recent name="D:\github\godot_bird\doc\image" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="godot_bird" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="godot_bird" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -399,7 +89,28 @@
       <option name="project" value="LOCAL" />
       <updated>1672369746054</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="图片和声音">
+      <created>1672396813162</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1672396813162</updated>
+    </task>
+    <task id="LOCAL-00003" summary="改代码">
+      <created>1672458277992</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1672458277992</updated>
+    </task>
+    <task id="LOCAL-00004" summary="图片和声音">
+      <created>1672458356135</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1672458356135</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -415,6 +126,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="整理新建项目" />
-    <option name="LAST_COMMIT_MESSAGE" value="整理新建项目" />
+    <MESSAGE value="改代码" />
+    <MESSAGE value="图片和声音" />
+    <option name="LAST_COMMIT_MESSAGE" value="图片和声音" />
   </component>
 </project>
