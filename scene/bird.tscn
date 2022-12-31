@@ -1,0 +1,59 @@
+[gd_scene load_steps=17 format=3 uid="uid://dq8o8wavf1lms"]
+
+[ext_resource type="AudioStream" uid="uid://dcoobpmodm8wk" path="res://audio/wing.wav" id="1_08qtj"]
+[ext_resource type="Script" path="res://scene/bird.gd" id="1_a2pry"]
+[ext_resource type="Texture2D" uid="uid://dynec8127lrcn" path="res://image/bird1_0.png" id="2_5penq"]
+[ext_resource type="Texture2D" uid="uid://1pqepk4bsrym" path="res://image/bird1_1.png" id="3_wfqof"]
+[ext_resource type="Texture2D" uid="uid://co3v3ascl0p3o" path="res://image/bird1_2.png" id="4_p1vl8"]
+[ext_resource type="Texture2D" uid="uid://dg8hoe7a44hyj" path="res://image/bird2_0.png" id="5_0avwk"]
+[ext_resource type="Texture2D" uid="uid://k0mn4lk3kb00" path="res://image/bird2_1.png" id="6_0t2q0"]
+[ext_resource type="Texture2D" uid="uid://brwfyolfyudk8" path="res://image/bird2_2.png" id="7_3nxdv"]
+[ext_resource type="Texture2D" uid="uid://3x7ym4gw2wdi" path="res://image/bird0_0.png" id="8_st3e1"]
+[ext_resource type="Texture2D" uid="uid://bhq2q5csrvf6c" path="res://image/bird0_1.png" id="9_pwvk3"]
+[ext_resource type="Texture2D" uid="uid://ffqyrvetr2n2" path="res://image/bird0_2.png" id="10_w7iir"]
+[ext_resource type="AudioStream" uid="uid://bn2vwgavvunvm" path="res://audio/hit.wav" id="12_yp2bs"]
+[ext_resource type="AudioStream" uid="uid://dj3s6cg6cthyx" path="res://audio/die.wav" id="13_v15b8"]
+[ext_resource type="AudioStream" uid="uid://dcgu70sdjetco" path="res://audio/point.wav" id="14_tpxdb"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_uvafd"]
+animations = [{
+"frames": [ExtResource("2_5penq"), ExtResource("3_wfqof"), ExtResource("4_p1vl8")],
+"loop": true,
+"name": &"blue",
+"speed": 5.0
+}, {
+"frames": [ExtResource("5_0avwk"), ExtResource("6_0t2q0"), ExtResource("7_3nxdv")],
+"loop": true,
+"name": &"red",
+"speed": 5.0
+}, {
+"frames": [ExtResource("8_st3e1"), ExtResource("9_pwvk3"), ExtResource("10_w7iir")],
+"loop": true,
+"name": &"yellow",
+"speed": 5.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_lo2mq"]
+radius = 11.0
+
+[node name="Bird" type="RigidBody2D"]
+script = ExtResource("1_a2pry")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+frames = SubResource("SpriteFrames_uvafd")
+animation = &"blue"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_lo2mq")
+
+[node name="wing" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("1_08qtj")
+
+[node name="hit" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("12_yp2bs")
+
+[node name="die" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("13_v15b8")
+
+[node name="point" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("14_tpxdb")
