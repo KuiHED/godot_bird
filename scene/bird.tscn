@@ -37,6 +37,7 @@ animations = [{
 radius = 11.0
 
 [node name="Bird" type="RigidBody2D"]
+contact_monitor = true
 script = ExtResource("1_a2pry")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]

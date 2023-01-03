@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59addd57-b55d-40f2-ba16-76797c75fc44" name="Changes" comment="图片和声音">
+    <list default="true" id="59addd57-b55d-40f2-ba16-76797c75fc44" name="Changes" comment="鸟和测试场景做完">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.godot" beforeDir="false" afterPath="$PROJECT_DIR$/project.godot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/bird.gd" beforeDir="false" afterPath="$PROJECT_DIR$/scene/bird.gd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scene/bird.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/scene/bird.tscn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scene/pipe.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/scene/pipe.tscn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/demo_1.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/test/demo_1.tscn" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +111,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672458356135</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="鸟和测试场景做完">
+      <created>1672471721850</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1672471721850</updated>
+    </task>
+    <task id="LOCAL-00006" summary="鸟和测试场景做完">
+      <created>1672471746852</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1672471746852</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -128,6 +143,7 @@
     <MESSAGE value="整理新建项目" />
     <MESSAGE value="改代码" />
     <MESSAGE value="图片和声音" />
-    <option name="LAST_COMMIT_MESSAGE" value="图片和声音" />
+    <MESSAGE value="鸟和测试场景做完" />
+    <option name="LAST_COMMIT_MESSAGE" value="鸟和测试场景做完" />
   </component>
 </project>

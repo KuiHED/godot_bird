@@ -16,7 +16,7 @@ position = Vector2(283, 362)
 position = Vector2(462, 238)
 
 [node name="Pipe3" parent="." instance=ExtResource("2_kswlc")]
-position = Vector2(649, 404)
+position = Vector2(649, 381)
 
 [node name="Pipe4" parent="." instance=ExtResource("2_kswlc")]
 position = Vector2(852, 400)

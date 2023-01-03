@@ -1,0 +1,74 @@
+[gd_scene load_steps=6 format=3 uid="uid://ceidygrwcvuwj"]
+
+[ext_resource type="PackedScene" uid="uid://cmh7s4l50kq70" path="res://scene/background.tscn" id="1_76ic5"]
+[ext_resource type="Texture2D" uid="uid://uxnmn24o5rep" path="res://image/score_panel.png" id="2_4y7uy"]
+[ext_resource type="Texture2D" uid="uid://dhkpaa8u3wkac" path="res://image/text_game_over.png" id="3_30s6u"]
+[ext_resource type="Texture2D" uid="uid://cl0px2bmjdblu" path="res://image/button_menu.png" id="4_x2ye0"]
+[ext_resource type="Texture2D" uid="uid://pwmdmtvupegk" path="res://image/button_share.png" id="5_ev0ud"]
+
+[node name="Over" type="Node2D"]
+
+[node name="Background" parent="." instance=ExtResource("1_76ic5")]
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1152.0
+offset_bottom = 648.0
+
+[node name="Sprite2D" type="Sprite2D" parent="Control"]
+position = Vector2(560, 248)
+scale = Vector2(2, 2)
+texture = ExtResource("2_4y7uy")
+
+[node name="Sprite2D2" type="Sprite2D" parent="Control"]
+position = Vector2(552, 128)
+texture = ExtResource("3_30s6u")
+
+[node name="Score" type="Label" parent="Control"]
+layout_mode = 0
+offset_left = 696.0
+offset_top = 200.0
+offset_right = 736.0
+offset_bottom = 226.0
+text = "0"
+
+[node name="Best" type="Label" parent="Control"]
+layout_mode = 0
+offset_left = 696.0
+offset_top = 288.0
+offset_right = 736.0
+offset_bottom = 314.0
+text = "0"
+
+[node name="Menu" type="Button" parent="Control"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -152.0
+offset_top = 44.0
+offset_right = -64.0
+offset_bottom = 80.0
+grow_horizontal = 2
+grow_vertical = 2
+icon = ExtResource("4_x2ye0")
+flat = true
+
+[node name="Share" type="Button" parent="Control"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = 32.0
+offset_top = 44.0
+offset_right = 120.0
+offset_bottom = 80.0
+grow_horizontal = 2
+grow_vertical = 2
+icon = ExtResource("5_ev0ud")
+flat = true
