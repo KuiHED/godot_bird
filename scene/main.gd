@@ -8,6 +8,7 @@ func home():
 	var homeResource = preload("res://scene/home.tscn")
 	var home = homeResource.instantiate()
 	add_child(home)
+	print(get_node_or_null("Home"))
 	$Home/Control/Start.connect("pressed",Callable(self,"startGame"))
 	$swoosh.play()
 	if (get_node_or_null("Over") != null):
