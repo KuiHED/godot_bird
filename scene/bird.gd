@@ -31,7 +31,7 @@ func _physics_process(delta):
 	if rotation > deg_to_rad(80):
 		rotation = deg_to_rad(80)
 	if Input.is_action_just_pressed("fly_button"):
-		set_linear_velocity(Vector2(speed, -200))
+		set_linear_velocity(Vector2(get_linear_velocity().x, -200))
 		set_angular_velocity(-5)
 		set_gravity_scale(0)
 		animated.play()
@@ -41,7 +41,7 @@ func _physics_process(delta):
 		animated.stop()
 		animated.frame = 0
 		set_gravity_scale(gravityScale)
-		
+		set_linear_velocity(Vector2(speed, get_linear_velocity().y))
 		
 	position.y = clamp(position.y, 0, screen_size.y)
 	pass

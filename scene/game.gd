@@ -14,12 +14,13 @@ var pipeCount: int = 3
 func _ready():
 	#以当前小鸟的位置，每隔pipeInterval间距生成水管
 	for i in range(20):
+		print(i)
 		createPipe()
 	pass
 	
 func _process(delta):
 	#移动相机
-	camera2d.position.x = bird.position.x + 360
+	camera2d.position.x = bird.position.x
 	#移动多少个屏幕背景
 	var count = int(bird.position.x) / 1152
 	background.position.x = count * 1152
@@ -46,6 +47,8 @@ func createPipe():
 	pass
 
 func onPipeScreenExited(exitedPipe: Node2D):
+#	var time = get_tree().create_timer(2)
+#	await time.timeout
 	exitedPipe.queue_free()
 	createPipe()
 	pass

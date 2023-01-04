@@ -3,10 +3,10 @@
 [ext_resource type="Texture2D" uid="uid://cqgbgrjed5hnm" path="res://image/pipe_up.png" id="1_y2r4b"]
 [ext_resource type="Texture2D" uid="uid://dcpofcteljj4o" path="res://image/pipe_down.png" id="2_xtj3u"]
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_iid8g"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_p0cx2"]
 size = Vector2(48, 316)
 
-[sub_resource type="RectangleShape2D" id="RectangleShape2D_di64h"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_s4dmd"]
 size = Vector2(22, 284)
 
 [node name="Pipe" type="Node2D"]
@@ -18,7 +18,7 @@ position = Vector2(0, -250)
 texture = ExtResource("2_xtj3u")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
-shape = SubResource("RectangleShape2D_iid8g")
+shape = SubResource("RectangleShape2D_p0cx2")
 
 [node name="Down2" type="StaticBody2D" parent="."]
 position = Vector2(0, 250)
@@ -27,12 +27,11 @@ position = Vector2(0, 250)
 texture = ExtResource("1_y2r4b")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Down2"]
-shape = SubResource("RectangleShape2D_iid8g")
+shape = SubResource("RectangleShape2D_p0cx2")
 
 [node name="Coin" type="Area2D" parent="."]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Coin"]
-shape = SubResource("RectangleShape2D_di64h")
+shape = SubResource("RectangleShape2D_s4dmd")
 
 [node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]
-scale = Vector2(9.7, 41.1)

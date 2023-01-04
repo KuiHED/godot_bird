@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59addd57-b55d-40f2-ba16-76797c75fc44" name="Changes" comment="完整循环做完。从开始到结束计分再到开始。">
+    <list default="true" id="59addd57-b55d-40f2-ba16-76797c75fc44" name="Changes" comment="鸟和测试场景做完">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project.godot" beforeDir="false" afterPath="$PROJECT_DIR$/project.godot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/bird.gd" beforeDir="false" afterPath="$PROJECT_DIR$/scene/bird.gd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/game.gd" beforeDir="false" afterPath="$PROJECT_DIR$/scene/game.gd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/home.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/scene/home.tscn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/main.gd" beforeDir="false" afterPath="$PROJECT_DIR$/scene/main.gd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/over.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/scene/over.tscn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scene/bird.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/scene/bird.tscn" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scene/pipe.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/scene/pipe.tscn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/demo_1.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/test/demo_1.tscn" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,14 +125,7 @@
       <option name="project" value="LOCAL" />
       <updated>1672471746852</updated>
     </task>
-    <task id="LOCAL-00007" summary="完整循环做完。从开始到结束计分再到开始。">
-      <created>1672755804351</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1672755804351</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -155,7 +144,6 @@
     <MESSAGE value="改代码" />
     <MESSAGE value="图片和声音" />
     <MESSAGE value="鸟和测试场景做完" />
-    <MESSAGE value="完整循环做完。从开始到结束计分再到开始。" />
-    <option name="LAST_COMMIT_MESSAGE" value="完整循环做完。从开始到结束计分再到开始。" />
+    <option name="LAST_COMMIT_MESSAGE" value="鸟和测试场景做完" />
   </component>
 </project>

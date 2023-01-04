@@ -7,7 +7,7 @@
 [ext_resource type="PackedScene" uid="uid://cmh7s4l50kq70" path="res://scene/background.tscn" id="5_n1l27"]
 [ext_resource type="Texture2D" uid="uid://6p6jk5lmnevt" path="res://image/button_play.png" id="6_koic6"]
 
-[sub_resource type="SpriteFrames" id="SpriteFrames_w5rv7"]
+[sub_resource type="SpriteFrames" id="SpriteFrames_7lpnl"]
 animations = [{
 "frames": [ExtResource("2_fuiik"), ExtResource("3_t4nuv"), ExtResource("4_b14hm")],
 "loop": true,
@@ -25,7 +25,7 @@ texture = ExtResource("1_e6w1q")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="UI"]
 position = Vector2(577, 240)
-frames = SubResource("SpriteFrames_w5rv7")
+frames = SubResource("SpriteFrames_7lpnl")
 playing = true
 
 [node name="Background" parent="." instance=ExtResource("5_n1l27")]
