@@ -1,0 +1,36 @@
+Index: scene/main.tscn
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>[gd_scene load_steps=4 format=3 uid=\"uid://b0bf43cpwdmcf\"]\n\n[ext_resource type=\"Script\" path=\"res://scene/main.gd\" id=\"1_8tqgu\"]\n[ext_resource type=\"AudioStream\" uid=\"uid://dj3s6cg6cthyx\" path=\"res://audio/die.wav\" id=\"1_k07f1\"]\n[ext_resource type=\"AudioStream\" uid=\"uid://ddp61kf15rkay\" path=\"res://audio/swoosh.wav\" id=\"2_rh4nt\"]\n\n[node name=\"Main\" type=\"Node2D\"]\nscript = ExtResource(\"1_8tqgu\")\n\n[node name=\"die\" type=\"AudioStreamPlayer2D\" parent=\".\"]\nstream = ExtResource(\"1_k07f1\")\n\n[node name=\"swoosh\" type=\"AudioStreamPlayer2D\" parent=\".\"]\nstream = ExtResource(\"2_rh4nt\")\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/scene/main.tscn b/scene/main.tscn
+--- a/scene/main.tscn	
++++ b/scene/main.tscn	
+@@ -1,14 +1,15 @@
+-[gd_scene load_steps=4 format=3 uid="uid://b0bf43cpwdmcf"]
++[gd_scene load_steps=7 format=3 uid="uid://b0bf43cpwdmcf"]
+ 
+ [ext_resource type="Script" path="res://scene/main.gd" id="1_8tqgu"]
+ [ext_resource type="AudioStream" uid="uid://dj3s6cg6cthyx" path="res://audio/die.wav" id="1_k07f1"]
+ [ext_resource type="AudioStream" uid="uid://ddp61kf15rkay" path="res://audio/swoosh.wav" id="2_rh4nt"]
+ 
+-[node name="Main" type="Node2D"]
+-script = ExtResource("1_8tqgu")
+-
+-[node name="die" type="AudioStreamPlayer2D" parent="."]
+-stream = ExtResource("1_k07f1")
+-
+-[node name="swoosh" type="AudioStreamPlayer2D" parent="."]
+-stream = ExtResource("2_rh4nt")
++[sub_resource type="Animation" id="Animation_pm570"]
++resource_name = "fade-in"
++length = 0.5
++tracks/0/type = "value"
++tracks/0/imported = false
++tracks/0/enabled = true
++tracks/0/path = NodePath("CanvasLayer/ColorRect:color")
++tracks/0/interp = 1
++trac
+\ No newline at end of file

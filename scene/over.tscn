@@ -26,7 +26,6 @@ position = Vector2(552, 128)
 texture = ExtResource("3_30s6u")
 
 [node name="Score" type="Label" parent="Control"]
-layout_mode = 0
 offset_left = 696.0
 offset_top = 200.0
 offset_right = 736.0
@@ -34,7 +33,6 @@ offset_bottom = 226.0
 text = "0"
 
 [node name="Best" type="Label" parent="Control"]
-layout_mode = 0
 offset_left = 696.0
 offset_top = 288.0
 offset_right = 736.0
@@ -42,7 +40,6 @@ offset_bottom = 314.0
 text = "0"
 
 [node name="Menu" type="Button" parent="Control"]
-layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -58,7 +55,6 @@ icon = ExtResource("4_x2ye0")
 flat = true
 
 [node name="Share" type="Button" parent="Control"]
-layout_mode = 1
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
