@@ -6,14 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="59addd57-b55d-40f2-ba16-76797c75fc44" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/bird.gd" beforeDir="false" afterPath="$PROJECT_DIR$/scene/bird.gd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/bird.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/scene/bird.tscn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/game.gd" beforeDir="false" afterPath="$PROJECT_DIR$/scene/game.gd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/game.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/scene/game.tscn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/home.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/scene/home.tscn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/main.gd" beforeDir="false" afterPath="$PROJECT_DIR$/scene/main.gd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/main.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/scene/main.tscn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scene/pipe.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/scene/pipe.tscn" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +129,21 @@
       <option name="project" value="LOCAL" />
       <updated>1672839365144</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="添加工具类。把小鸟场景里的AudioStreamPlayer2D换成AudioStreamPlayer。修改摄像机参数。修改水管Y轴位置。">
+      <created>1672998942437</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1672998942437</updated>
+    </task>
+    <task id="LOCAL-00009" summary="添加工具类。把小鸟场景里的AudioStreamPlayer2D换成AudioStreamPlayer。修改摄像机参数。修改水管Y轴位置。">
+      <created>1672999008307</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1672999008307</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,6 +163,8 @@
     <MESSAGE value="图片和声音" />
     <MESSAGE value="鸟和测试场景做完" />
     <MESSAGE value="修复水管突然消失bug，打开游戏窗口永远在最前端选项。将main场景设为全局运行。" />
-    <option name="LAST_COMMIT_MESSAGE" value="修复水管突然消失bug，打开游戏窗口永远在最前端选项。将main场景设为全局运行。" />
+    <MESSAGE value="把小鸟场景里的AudioStreamPlayer2D换成AudioStreamPlayer。修改摄像机参数。修改水管Y轴位置。" />
+    <MESSAGE value="添加工具类。" />
+    <option name="LAST_COMMIT_MESSAGE" value="把小鸟场景里的AudioStreamPlayer2D换成AudioStreamPlayer。修改摄像机参数。修改水管Y轴位置。" />
   </component>
 </project>
