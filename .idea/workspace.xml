@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59addd57-b55d-40f2-ba16-76797c75fc44" name="Changes" comment="鸟和测试场景做完">
+    <list default="true" id="59addd57-b55d-40f2-ba16-76797c75fc44" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scene/bird.gd" beforeDir="false" afterPath="$PROJECT_DIR$/scene/bird.gd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scene/bird.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/scene/bird.tscn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scene/game.gd" beforeDir="false" afterPath="$PROJECT_DIR$/scene/game.gd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scene/game.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/scene/game.tscn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scene/home.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/scene/home.tscn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scene/main.gd" beforeDir="false" afterPath="$PROJECT_DIR$/scene/main.gd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scene/main.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/scene/main.tscn" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scene/pipe.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/scene/pipe.tscn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/demo_1.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/test/demo_1.tscn" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1672471746852</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="修复水管突然消失bug，打开游戏窗口永远在最前端选项。将main场景设为全局运行。">
+      <created>1672839365144</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1672839365144</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,6 +156,7 @@
     <MESSAGE value="改代码" />
     <MESSAGE value="图片和声音" />
     <MESSAGE value="鸟和测试场景做完" />
-    <option name="LAST_COMMIT_MESSAGE" value="鸟和测试场景做完" />
+    <MESSAGE value="修复水管突然消失bug，打开游戏窗口永远在最前端选项。将main场景设为全局运行。" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复水管突然消失bug，打开游戏窗口永远在最前端选项。将main场景设为全局运行。" />
   </component>
 </project>

@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://b1jef8xljajik"]
+[gd_scene load_steps=9 format=3 uid="uid://b1jef8xljajik"]
 
 [ext_resource type="Texture2D" uid="uid://bw845aaa6sbnj" path="res://image/title.png" id="1_e6w1q"]
 [ext_resource type="Texture2D" uid="uid://dynec8127lrcn" path="res://image/bird1_0.png" id="2_fuiik"]
@@ -7,13 +7,18 @@
 [ext_resource type="PackedScene" uid="uid://cmh7s4l50kq70" path="res://scene/background.tscn" id="5_n1l27"]
 [ext_resource type="Texture2D" uid="uid://6p6jk5lmnevt" path="res://image/button_play.png" id="6_koic6"]
 
-[sub_resource type="SpriteFrames" id="SpriteFrames_7lpnl"]
+[sub_resource type="SpriteFrames" id="SpriteFrames_4ltvg"]
 animations = [{
 "frames": [ExtResource("2_fuiik"), ExtResource("3_t4nuv"), ExtResource("4_b14hm")],
 "loop": true,
 "name": &"default",
 "speed": 5.0
 }]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_imp7o"]
+texture = ExtResource("6_koic6")
+region_rect = Rect2(0, 0, 116, 70)
+modulate_color = Color(0, 0, 0, 1)
 
 [node name="Home" type="Node2D"]
 
@@ -23,9 +28,9 @@ animations = [{
 position = Vector2(585, 184)
 texture = ExtResource("1_e6w1q")
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="UI"]
+[node name="Bird" type="AnimatedSprite2D" parent="UI"]
 position = Vector2(577, 240)
-frames = SubResource("SpriteFrames_7lpnl")
+frames = SubResource("SpriteFrames_4ltvg")
 playing = true
 
 [node name="Background" parent="." instance=ExtResource("5_n1l27")]
@@ -38,17 +43,17 @@ offset_bottom = 648.0
 size_flags_horizontal = 4
 
 [node name="Start" type="Button" parent="Control"]
-layout_mode = 1
-anchors_preset = 8
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -4.0
-offset_top = -4.0
-offset_right = 4.0
-offset_bottom = 4.0
+anchors_preset = -1
+anchor_left = 0.451
+anchor_top = 0.444
+anchor_right = 0.549
+anchor_bottom = 0.556
+offset_left = 52.4479
+offset_top = 32.288
+offset_right = -52.448
+offset_bottom = -32.288
 grow_horizontal = 2
 grow_vertical = 2
+theme_override_styles/focus = SubResource("StyleBoxTexture_imp7o")
 icon = ExtResource("6_koic6")
 flat = true

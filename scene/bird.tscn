@@ -1,4 +1,4 @@
-[gd_scene load_steps=17 format=3 uid="uid://dq8o8wavf1lms"]
+[gd_scene load_steps=20 format=3 uid="uid://dq8o8wavf1lms"]
 
 [ext_resource type="AudioStream" uid="uid://dcoobpmodm8wk" path="res://audio/wing.wav" id="1_08qtj"]
 [ext_resource type="Script" path="res://scene/bird.gd" id="1_a2pry"]
@@ -14,13 +14,16 @@
 [ext_resource type="AudioStream" uid="uid://bn2vwgavvunvm" path="res://audio/hit.wav" id="12_yp2bs"]
 [ext_resource type="AudioStream" uid="uid://dj3s6cg6cthyx" path="res://audio/die.wav" id="13_v15b8"]
 [ext_resource type="AudioStream" uid="uid://dcgu70sdjetco" path="res://audio/point.wav" id="14_tpxdb"]
+[ext_resource type="AudioStream" uid="uid://bj8hn31xs4f0c" path="res://audio/hp.wav" id="15_jkig3"]
+[ext_resource type="AudioStream" uid="uid://31i6ke7t7jxp" path="res://audio/speedup.wav" id="16_wls8a"]
+[ext_resource type="AudioStream" uid="uid://c2qyhqm77o3rs" path="res://audio/speedup_end.wav" id="17_v07d7"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_uvafd"]
 animations = [{
 "frames": [ExtResource("2_5penq"), ExtResource("3_wfqof"), ExtResource("4_p1vl8")],
 "loop": true,
 "name": &"blue",
-"speed": 5.0
+"speed": 10.0
 }, {
 "frames": [ExtResource("5_0avwk"), ExtResource("6_0t2q0"), ExtResource("7_3nxdv")],
 "loop": true,
@@ -40,21 +43,30 @@ radius = 11.0
 contact_monitor = true
 script = ExtResource("1_a2pry")
 
-[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+[node name="AnimatedSprite2d" type="AnimatedSprite2D" parent="."]
 frames = SubResource("SpriteFrames_uvafd")
 animation = &"blue"
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+[node name="CollisionShape2d" type="CollisionShape2D" parent="."]
 shape = SubResource("CircleShape2D_lo2mq")
 
-[node name="wing" type="AudioStreamPlayer2D" parent="."]
+[node name="wing" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("1_08qtj")
 
-[node name="hit" type="AudioStreamPlayer2D" parent="."]
+[node name="hit" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("12_yp2bs")
 
-[node name="die" type="AudioStreamPlayer2D" parent="."]
+[node name="die" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("13_v15b8")
 
-[node name="point" type="AudioStreamPlayer2D" parent="."]
+[node name="point" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("14_tpxdb")
+
+[node name="hp" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("15_jkig3")
+
+[node name="speedup" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("16_wls8a")
+
+[node name="speedup_end" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("17_v07d7")

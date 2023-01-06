@@ -8,11 +8,11 @@
 script = ExtResource("1_6bxns")
 
 [node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2(576, 328)
+anchor_mode = 0
 current = true
 
 [node name="Bird" parent="." instance=ExtResource("2_uf80m")]
-position = Vector2(104, 256)
+position = Vector2(80, 240)
 
 [node name="Background" type="Node2D" parent="."]
 

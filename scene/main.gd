@@ -5,30 +5,31 @@ func _ready():
 	pass
 
 func home():
-	var homeResource = preload("res://scene/home.tscn")
+	var homeResource = preload("res://scene/Home.tscn")
 	var home = homeResource.instantiate()
 	add_child(home)
-	$Home/Control/Start.connect("pressed",Callable(self,"startGame"))
+	$Home/Control/Start.connect("pressed", Callable(self, "startGame"))
 	$swoosh.play()
 	if (get_node_or_null("Over") != null):
 		$Over.queue_free()
 	pass
-	
 
 func startGame():
-	var gameResoure = preload("res://scene/game.tscn")
-	var game = gameResoure.instantiate()
+	var gameResource = preload("res://scene/Game.tscn")
+	var game = gameResource.instantiate()
 	add_child(game)
 	
 	game.end_game.connect(endGame)
 	
+	# 切换场景，删除Home
 	$Home.queue_free()
 	
 	$swoosh.play()
 	pass
 
+
 func endGame(point: int):
-	var overResource = preload("res://scene/over.tscn")
+	var overResource = preload("res://scene/Over.tscn")
 	var over = overResource.instantiate()
 	add_child(over)
 	$Over/Control/Score.text = String.num_int64(point)
@@ -37,3 +38,4 @@ func endGame(point: int):
 	
 	$die.play()
 	pass
+
