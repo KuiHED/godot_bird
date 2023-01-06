@@ -14,10 +14,6 @@ config/name="godot_bird"
 config/features=PackedStringArray("4.0", "Forward Plus")
 config/icon="res://icon.svg"
 
-[autoload]
-
-Main="*res://scene/main.tscn"
-
 [display]
 
 window/size/always_on_top=true
